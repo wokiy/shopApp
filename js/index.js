@@ -91,13 +91,13 @@ function banner(dom) {
     });
 }
 function cutDownTime() {
-    var totalHour = 3;
-    var totalSec = 3 * 60 * 60;
+    var totalHour = 0;
+    var totalSec = 1 * 60;
     var liArr = document.querySelectorAll('.Seckill ul li');
     var timeId = setInterval(function () {
         if (totalSec <= 0) {
             clearInterval(timeId);
-            console.log('结束啦,你买不到了!!');
+            alert('结束啦,你买不到了!!');
             return;
         }
         totalSec--;
