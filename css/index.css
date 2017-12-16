@@ -27,7 +27,7 @@
   margin-left: 0.32rem;
   border-radius: 0.21333333rem;
   background: #E9E9E9;
-  color: #E9E9E9;
+  color: #000000;
   width: 9.36533333rem;
   padding-left: 0.512rem;
 }
@@ -421,11 +421,11 @@
 }
 .index_container .adorable_pet .adorable_pet_text {
   text-align: center;
-  font-size: 0.29866667rem;
+  font-size: 0.42666667rem;
 }
 .index_container .adorable_pet .adorable_pet_look {
   text-align: center;
-  font-size: 0.29866667rem;
+  font-size: 0.42666667rem;
   position: relative;
   color: #A7A7A5;
 }
