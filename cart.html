@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="js/public.js"></script>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+<div class="cart_container">
+    <div class="cart_header">
+        <!--在vue不用 a 标签  直接路由回调 this.$router.back 既可以-->
+        <a href="index.html" class="back_img"></a>
+        <span>购物车</span>
+        <div class="header_hr"></div>
+        <i class="head_right_img"></i>
+    </div>
+    <!--没有登陆时候-->
+    <div class="cart_content">
+        <span class="not_login_image"></span>
+        <br>
+        <a class="login_btn" href="login.html">去逛逛</a>
+        <a class="login_btn" href="login.html">我的收藏</a>
+    </div>
+</div>
+</body>
+</html>
