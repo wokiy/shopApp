@@ -191,13 +191,30 @@
   background-size: cover;
 }
 .index_container .index_P_buying .P_buying_top .Seckill {
+  display: block;
+  position: relative;
   font-size: 0.59733333rem;
-  margin-left: 1.49333333rem;
+  margin-left: -2.13333333rem;
+  /*i{
+          font-style: normal;
+          border: 1px solid #A7A7A5;
+          padding: 5/@rem 5/@rem 5/@rem 5/@rem;
+        }*/
 }
-.index_container .index_P_buying .P_buying_top .Seckill i {
-  font-style: normal;
-  border: 1px solid #A7A7A5;
-  padding: 0.10666667rem 0.10666667rem 0.10666667rem 0.10666667rem;
+.index_container .index_P_buying .P_buying_top .Seckill ul {
+  width: 3.17866667rem;
+  position: absolute;
+  left: 11.2rem;
+  top: 0.40533333rem;
+  line-height: 1.06666667rem;
+  background: #A2EE7C;
+  border-radius: 0.21333333rem;
+  padding-left: 0.42666667rem;
+  box-shadow: 1px 1px #33DA82;
+}
+.index_container .index_P_buying .P_buying_top .Seckill ul li {
+  height: 1.06666667rem;
+  float: left;
 }
 .index_container .index_P_buying .P_buying_top .img_right {
   position: absolute;
@@ -270,6 +287,7 @@
 .index_container .index_recommend {
   width: 100%;
   height: 10.66666667rem;
+  margin-top: 0.42666667rem;
   position: relative;
 }
 .index_container .index_recommend .recommend_imgR {
@@ -277,6 +295,7 @@
 }
 .index_container .index_recommend .recommend_imgR img {
   width: 100%;
+  margin: 0.04266667rem;
 }
 .index_container .index_recommend .hr {
   height: 10.24rem;
@@ -297,8 +316,29 @@
   top: 50%;
   right: 0.21333333rem;
 }
-.index_container .index_recommend .recommend_imgL img {
+.index_container .index_recommend .recommend_imgL .img2 {
   width: 100%;
+  height: 5.33333333rem;
+  position: relative;
+}
+.index_container .index_recommend .recommend_imgL .img2 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0.04266667rem;
+  left: 0;
+}
+.index_container .index_recommend .recommend_imgL .img1 {
+  width: 100%;
+  height: 5.35466667rem;
+  position: relative;
+}
+.index_container .index_recommend .recommend_imgL .img1 img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .index_container .index_sale {
   width: 100%;

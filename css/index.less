@@ -1,43 +1,43 @@
-@rem:750/16rem;
-.index_container{
+@rem: 750/16rem;
+.index_container {
   width: 100%;
   background: #F3F4F6;
   /*头部部分*/
-  .index_head{
+  .index_head {
     width: 100%;
     height: 190/@rem;
     position: relative;
-    .head_top{
+    .head_top {
       width: 100%;
       height: 70/@rem;
       margin-top: 0/@rem;
       position: relative;
-      input{
+      input {
         padding: 10/@rem 0;
         margin-left: 15/@rem;
         border-radius: 10/@rem;
         background: #E9E9E9;
         color: #000000;
         width: 439/@rem;
-        padding-left:24/@rem;
+        padding-left: 24/@rem;
       }
-      span{
+      span {
         color: #908B8D;
         font-size: 28/@rem;
         font-weight: 600;
       }
-      .span1{
+      .span1 {
         margin-left: 20/@rem;
       }
-      .span2{
+      .span2 {
         position: absolute;
         top: 10/@rem;
         left: 108/@rem;
         height: 50/@rem;
-        width:2px;
+        width: 2px;
         background: #908B8D;
       }
-      .search_img{
+      .search_img {
         position: absolute;
         top: 30/@rem;
         right: 118/@rem;
@@ -48,7 +48,7 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
-      .chat_img{
+      .chat_img {
         display: inline-block;
         position: absolute;
         top: 20/@rem;
@@ -60,36 +60,36 @@
         background-size: cover;
       }
     }
-    .head_bottom{
+    .head_bottom {
       width: 100%;
       margin-top: 40/@rem;
       overflow: hidden;
-      .bottom_ul{
+      .bottom_ul {
         width: 150%;
         display: flex;
         text-align: center;
         padding-right: 40/@rem;
-          li{
-            flex: 1;
-            float: left;
-            a{
-              display: inline-block;
-              font-size: 28/@rem;
-              font-weight: 600;
-              color: #706D73;
-            }
-             .current{
-              color: #389C42;
-              border-bottom: 2px solid #389C42;;
-            }
+        li {
+          flex: 1;
+          float: left;
+          a {
+            display: inline-block;
+            font-size: 28/@rem;
+            font-weight: 600;
+            color: #706D73;
           }
+          .current {
+            color: #389C42;
+            border-bottom: 2px solid #389C42;;
+          }
+        }
       }
     }
-    .hr{
+    .hr {
       width: 684/@rem;
       height: 1px;
       position: absolute;
-      background:rgba(112,109,115,.5);
+      background: rgba(112, 109, 115, .5);
       bottom: 0;
       left: 46/@rem;
     }
@@ -142,23 +142,23 @@
 
   /*category部分*/
 
-  .index_category{
+  .index_category {
     width: 100%;
     height: 366/@rem;
     background: #ffffff;
-    .category_1{
+    .category_1 {
       width: 100%;
       margin-top: 0/@rem;
-      ul{
+      ul {
         width: 100%;
         display: flex;
         text-align: center;
-        li{
+        li {
           float: left;
           flex: 1;
-          a{
-            img{
-                width: 145/@rem;
+          a {
+            img {
+              width: 145/@rem;
             }
           }
         }
@@ -167,20 +167,20 @@
 
   }
   /*秒杀组件*/
-  .index_P_buying{
+  .index_P_buying {
     width: 100%;
     height: 400/@rem;
     position: relative;
     background: #ffffff;
-    .P_buying_top{
+    .P_buying_top {
       width: 100%;
       margin-top: 30/@rem;
-      .img_left{
-        margin:28/@rem 0 0 0;;
+      .img_left {
+        margin: 28/@rem 0 0 0;;
         position: absolute;
-        top:0;
+        top: 0;
         left: -25/@rem;
-        width:230/@rem ;
+        width: 230/@rem;
         height: 60/@rem;
         background-image: url("../images/suprice.png");
         background-repeat: no-repeat;
@@ -188,102 +188,121 @@
       }
       text-align: center;
       line-height: 90/@rem;
-      .Seckill{
+      .Seckill {
+        display: block;
+        position: relative;
         font-size: 28/@rem;
-        margin-left:70/@rem ;
-        i{
+        margin-left: -100/@rem;
+        /*i{
           font-style: normal;
           border: 1px solid #A7A7A5;
           padding: 5/@rem 5/@rem 5/@rem 5/@rem;
+        }*/
+        ul {
+          width: 149/@rem;
+          position: absolute;
+          left: 525/@rem;
+          top: 19/@rem;
+          line-height: 50/@rem;
+          background: #A2EE7C;
+          border-radius: 10/@rem;
+          padding-left: 20/@rem;
+          box-shadow: 1px 1px #33DA82;
+          li {
+            height: 50/@rem;
+            float: left;
+          }
         }
       }
-      .img_right{
+      .img_right {
         position: absolute;
         top: 34/@rem;
         right: 32/@rem;
         width: 100/@rem;
         height: 50/@rem;
-        background-image:url("../images/more1.png") ;
+        background-image: url("../images/more1.png");
         background-repeat: no-repeat;
         background-size: cover;
       }
     }
-    .P_buying_list{
+    .P_buying_list {
       width: 100%;
       overflow: hidden;
       margin-top: 50/@rem;
-        .list_ul {
-          width: 125%;
-          height: 245/@rem;
-          display: flex;
-          text-align: center;
-          padding-right: 40/@rem;
-          li {
-            flex: 1;
-            float: left;
-            position: relative;
-            a {
+      .list_ul {
+        width: 125%;
+        height: 245/@rem;
+        display: flex;
+        text-align: center;
+        padding-right: 40/@rem;
+        li {
+          flex: 1;
+          float: left;
+          position: relative;
+          a {
+            display: inline-block;
+            width: 160/@rem;
+            height: 160/@rem;
+            display: inline-block;
+            font-size: 28/@rem;
+            font-weight: 600;
+            color: #706D73;
+            img {
               display: inline-block;
-              width: 160/@rem;
-              height: 160/@rem;
-              display: inline-block;
-              font-size: 28/@rem;
-              font-weight: 600;
-              color: #706D73;
-              img{
-                  display: inline-block;
-                  width: 100%;
-              }
+              width: 100%;
             }
-            span:nth-of-type(1){
-              font-style: normal;
-              color: red;
-              font-size: 28/@rem;
-              font-weight: 600;
-              position: absolute;
-              bottom: 40/@rem;
-              left: 50/@rem;
-            }
-            span:nth-of-type(2){
-              color: #A7A7A5;
-              font-style: normal;
-              font-size: 14/@rem;
-              position: absolute;
-              bottom: 0/@rem;
-              left: 50/@rem;
-            }
+          }
+          span:nth-of-type(1) {
+            font-style: normal;
+            color: red;
+            font-size: 28/@rem;
+            font-weight: 600;
+            position: absolute;
+            bottom: 40/@rem;
+            left: 50/@rem;
+          }
+          span:nth-of-type(2) {
+            color: #A7A7A5;
+            font-style: normal;
+            font-size: 14/@rem;
+            position: absolute;
+            bottom: 0/@rem;
+            left: 50/@rem;
           }
         }
       }
     }
-  .index_discount{
+  }
+  .index_discount {
     width: 100%;
     height: 380/@rem;
     margin-top: 30/@rem;
     background: #FFFFF3;
-    .discount_img{
+    .discount_img {
       width: 100%;
-      img{
+      img {
         width: 100%;
       }
     }
   }
-  .index_recommend{
+  .index_recommend {
     width: 100%;
     height: 500/@rem;
+    margin-top: 20/@rem;
     position: relative;
-    .recommend_imgR{
+    .recommend_imgR {
       width: 380/@rem;
-      img{
+      img {
         width: 100%;
+        margin: 2/@rem;
       }
     }
-    .hr{
+    .hr {
       height: 480/@rem;
       width: 1px;
       background: #DEDEDE;
       position: absolute;
-      top:30/@rem;
+      top: 30/@rem;
       left: 380/@rem;
     }
     .recommend_imgL {
@@ -296,8 +315,29 @@
         top: 50%;
         right: 10/@rem;
       }
-      img {
+      .img2 {
         width: 100%;
+        height: 250/@rem;
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 2/@rem;
+          left: 0;
+        }
+      }
+      .img1 {
+        width: 100%;
+        height: 251/@rem;
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
       }
     }
   }
@@ -335,10 +375,10 @@
         background-size: cover;
       }
     }
-    .sale_list{
+    .sale_list {
       width: 100%;
       margin-top: 20/@rem;
-      img{
+      img {
         width: 100%;
       }
     }
@@ -412,40 +452,40 @@
         background-size: cover;
       }
     }
-    .sale_list{
+    .sale_list {
       width: 100%;
       margin-top: 20/@rem;
-      img{
+      img {
         width: 100%;
       }
     }
   }
-  .adorable_pet{
+  .adorable_pet {
     height: 714/@rem;
-    .adorable_pet_text{
-        text-align: center;
-        font-size: 20/@rem;
+    .adorable_pet_text {
+      text-align: center;
+      font-size: 20/@rem;
     }
-    .adorable_pet_look{
+    .adorable_pet_look {
       text-align: center;
       font-size: 20/@rem;
       position: relative;
-      color:#A7A7A5;
-      i{
+      color: #A7A7A5;
+      i {
         line-height: 60/@rem;
         font-style: normal;
-        color:#A7A7A5;
+        color: #A7A7A5;
         margin-left: 20/@rem;
       }
-      i:nth-of-type(2){
+      i:nth-of-type(2) {
         height: 20/@rem;
         width: 1px;
         background: #A7A7A5;
         position: absolute;
-        top:20/@rem;
+        top: 20/@rem;
         left: 50%;
       }
-      i:nth-of-type(3){
+      i:nth-of-type(3) {
         margin-left: 80/@rem;
       }
     }
@@ -484,10 +524,10 @@
         background-size: cover;
       }
     }
-    .sale_list{
+    .sale_list {
       width: 100%;
       margin-top: 20/@rem;
-      img{
+      img {
         width: 100%;
       }
     }
@@ -523,13 +563,13 @@
             margin-right: 9/@rem;
           }
         }
-        .current{
+        .current {
           color: #FCB0BA;
         }
       }
     }
   }
-  .while{
+  .while {
     height: 95/@rem;
   }
 }
