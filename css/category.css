@@ -15,6 +15,11 @@
   margin-left: 5.824rem;
   height: 100%;
   width: 4.18133333rem;
+  /*.span1 a{
+        color: red;
+        padding-bottom: 25/@rem;
+        border-bottom: 2px solid red;
+      }*/
 }
 .category_container .category_head .head_tap span a {
   line-height: 2.13333333rem;
@@ -22,7 +27,7 @@
   font-weight: 600;
   color: black;
 }
-.category_container .category_head .head_tap .span1 a {
+.category_container .category_head .head_tap .current a {
   color: red;
   padding-bottom: 0.53333333rem;
   border-bottom: 2px solid red;
@@ -86,10 +91,17 @@
   float: left;
   margin-left: 0.42666667rem;
   margin-top: 0.21333333rem;
+  text-align: center;
 }
 .category_container .main .main_right ul li img {
   width: 3.456rem;
   height: auto;
+}
+.category_container .main .main_right ul li p {
+  font-size: 0.576rem;
+}
+.category_container .while {
+  height: 2.02666667rem;
 }
 .category_container .footer_wrap {
   width: 100%;
@@ -124,7 +136,4 @@
 }
 .category_container .footer_wrap .footer div .current {
   color: #FCB0BA;
-}
-.category_container .while {
-  height: 2.02666667rem;
 }

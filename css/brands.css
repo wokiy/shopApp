@@ -1,0 +1,92 @@
+.brands_container {
+  width: 100%;
+  background: #F3F4F5;
+}
+.brands_container .mian {
+  width: 100%;
+}
+.brands_container .mian .recommend_content {
+  width: 100%;
+  background: #FFFFFF;
+}
+.brands_container .mian .recommend_content .content_head {
+  width: 100%;
+  height: 2.496rem;
+  text-align: center;
+  line-height: 2.496rem;
+}
+.brands_container .mian .recommend_content .content_head span {
+  color: #999999;
+  font-size: 0.55466667rem;
+}
+.brands_container .mian .recommend_content .brands_list {
+  width: 100%;
+}
+.brands_container .mian .recommend_content .brands_list ul {
+  width: 100%;
+  padding-left: 1.664rem;
+  margin-top: 0.64rem;
+}
+.brands_container .mian .recommend_content .brands_list ul li {
+  width: 4.48rem;
+  height: 4.8rem;
+  float: left;
+  line-height: 0.85333333rem;
+}
+.brands_container .mian .recommend_content .brands_list ul li a {
+  display: block;
+  width: 3.41333333rem;
+  height: 1.74933333rem;
+}
+.brands_container .mian .recommend_content .brands_list ul li a img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.brands_container .mian .recommend_content .brands_list ul li span {
+  font-size: 0.64rem;
+  margin-left: 1.06666667rem;
+}
+.brands_container .mian .recommend_content .brands_list ul li i {
+  font-size: 0.59733333rem;
+  margin-left: 1.06666667rem;
+  font-style: normal;
+  color: #999999;
+}
+.brands_container .while {
+  height: 2.24rem;
+}
+.brands_container .footer_wrap {
+  width: 100%;
+  background: #FFFFFF;
+  position: absolute;
+  bottom: 0;
+}
+.brands_container .footer_wrap .footer {
+  width: 100%;
+  height: 2.56rem;
+  bottom: 0;
+  position: fixed;
+  background: #fff;
+  display: flex;
+  text-align: center;
+  border-bottom: 1px silver solid;
+  border-bottom: 0;
+  border-radius: 0.02133333rem;
+}
+.brands_container .footer_wrap .footer div {
+  flex: 1;
+}
+.brands_container .footer_wrap .footer div a {
+  padding-top: 0.42666667rem;
+  font-size: 0.59733333rem;
+  color: #A7A7A5;
+  display: inline-block;
+}
+.brands_container .footer_wrap .footer div a img {
+  width: 0.85333333rem;
+  margin-right: 0.192rem;
+}
+.brands_container .footer_wrap .footer div .current {
+  color: #FCB0BA;
+}

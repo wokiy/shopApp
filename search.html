@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>搜索</title>
+    <script src="js/public.js"></script>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+    <div class="search_container">
+        <div class="search_head">
+            <span class="back_img"></span>
+            <input type="text"  placeholder="搜索目的地"/>
+            <span class="search_img"></span>
+            <span class="line"></span>
+            <!--在vue 设计中使用this.$router.back路由回到之前点技搜索的页面-->
+            <span>取消</span>
+            <div class="hr"></div>
+        </div>
+        <!--精选推荐组件-->
+        <div class="search_recommend">
+            <div class="recommend_title">
+                <i></i>
+                <span>精品推荐</span>
+            </div>
+            <div class="recommend_content">
+                <div class="content_list">
+                    <span>牛油果</span>
+                    <span>牛油果</span>
+                    <span>牛油果</span>
+                    <span>牛油果</span>
+                    <span>牛油果</span>
+                </div>
+            </div>
+        </div>
+        <div class="search_recommend history">
+            <div class="recommend_title">
+                <i></i>
+                <span>最近搜索</span>
+            </div>
+        </div>
+        <div class="footer_wrap clearfix">
+            <div class="footer">
+                <div><a href="index.html"><img src="images/index_0.png" alt=""><br>主页</a></div>
+                <div><a href="category.html"><img src="images/Category_0.png" alt=""><br>分类</a></div>
+                <div><a href="cart.html"><img src="images/cart_0.png" alt=""><br>购物车</a></div>
+                <div><a href="owm.html"><img src="images/account_0.png" alt=""><br>我的</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
