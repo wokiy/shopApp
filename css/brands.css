@@ -24,23 +24,29 @@
 }
 .brands_container .mian .recommend_content .brands_list ul {
   width: 100%;
-  padding-left: 1.664rem;
+  padding-left: 1.23733333rem;
   margin-top: 0.64rem;
 }
 .brands_container .mian .recommend_content .brands_list ul li {
   width: 4.48rem;
   height: 4.8rem;
   float: left;
+  padding-left: 0.32rem;
   line-height: 0.85333333rem;
+  text-align: center;
 }
 .brands_container .mian .recommend_content .brands_list ul li a {
   display: block;
-  width: 3.41333333rem;
-  height: 1.74933333rem;
+  width: 4.26666667rem;
+  height: 2.38933333rem;
+  margin-left: 0.32rem;
+  border: 1px solid red;
+  text-align: center;
 }
 .brands_container .mian .recommend_content .brands_list ul li a img {
   display: inline-block;
   width: 100%;
+  padding: 0.21333333rem;
   height: auto;
 }
 .brands_container .mian .recommend_content .brands_list ul li span {
@@ -49,7 +55,7 @@
 }
 .brands_container .mian .recommend_content .brands_list ul li i {
   font-size: 0.59733333rem;
-  margin-left: 1.06666667rem;
+  margin-left: 0.64rem;
   font-style: normal;
   color: #999999;
 }
