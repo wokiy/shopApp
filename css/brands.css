@@ -1,6 +1,20 @@
 .brands_container {
   width: 100%;
   background: #F3F4F5;
+  position: relative;
+}
+.brands_container .all {
+  position: fixed;
+  width: 1.70666667rem;
+  height: 1.70666667rem;
+  bottom: 2.77333333rem;
+  right: 0.64rem;
+  border-radius: 50%;
+  background: #888484;
+  color: #FFFFFF;
+  font-size: 0.46933333rem;
+  text-align: center;
+  line-height: 1.70666667rem;
 }
 .brands_container .mian {
   width: 100%;

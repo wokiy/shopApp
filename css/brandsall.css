@@ -1,0 +1,92 @@
+.brandsall_container {
+  width: 100%;
+  background: #FFFFFF;
+}
+.brandsall_container .brandsall_header {
+  background: #FFFFFF;
+  text-align: center;
+  line-height: 2.13333333rem;
+  position: relative;
+  width: 100%;
+  height: 2.13333333rem;
+}
+.brandsall_container .brandsall_header .head_right_img {
+  position: absolute;
+  top: 0.576rem;
+  right: 0.78933333rem;
+  width: 0.78933333rem;
+  height: 0.78933333rem;
+  background-image: url("../images/QRCode.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.brandsall_container .brandsall_header .back_img {
+  display: inline-block;
+  position: absolute;
+  top: 0.64rem;
+  left: 0.49066667rem;
+  width: 1.06666667rem;
+  height: 1.06666667rem;
+  background-image: url("../images/back.png");
+  background-repeat: no-repeat;
+  background-size: 1.06666667rem 1.06666667rem;
+}
+.brandsall_container .brandsall_header .header_hr {
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background: #E8E8E8;
+}
+.brandsall_container .brandsall_header span {
+  color: #000;
+  font-size: 0.59733333rem;
+  font-weight: 600;
+}
+.brandsall_container .content {
+  width: 100%;
+}
+.brandsall_container .content .content-list {
+  width: 100%;
+}
+.brandsall_container .content .content-list .list {
+  width: 100%;
+}
+.brandsall_container .content .content-list .list h2 {
+  width: 100%;
+  height: 1.06666667rem;
+  color: #999999;
+  font-size: 0.59733333rem;
+  background: #F3F4F5;
+  line-height: 1.06666667rem;
+  padding-left: 0.64rem;
+}
+.brandsall_container .content .content-list .list .item {
+  width: 100%;
+  height: 2.98666667rem;
+  margin-top: 0.42666667rem;
+  border: 1px solid #F3F4F5;
+}
+.brandsall_container .content .content-list .list .item .item-left {
+  width: 4.37333333rem;
+  height: 2.24rem;
+  margin-top: 0.32rem;
+  margin-left: 0.42666667rem;
+  border: 1px solid #F3F4F5;
+  text-align: center;
+}
+.brandsall_container .content .content-list .list .item .item-left img {
+  display: inline-block;
+  width: 4.288rem;
+}
+.brandsall_container .content .content-list .list .item .item-right {
+  line-height: 0.04266667rem;
+}
+.brandsall_container .content .content-list .list .item .item-right p {
+  padding: 0.832rem 0 0 0.42666667rem;
+  font-size: 0.53333333rem;
+}
+.brandsall_container .content .content-list .list .item .item-right p:nth-of-type(2) {
+  font-size: 0.40533333rem;
+  color: silver;
+}
