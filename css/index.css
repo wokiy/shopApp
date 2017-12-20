@@ -578,13 +578,13 @@
 .index_container .footer_wrap .footer div a {
   padding-top: 0.42666667rem;
   font-size: 0.59733333rem;
-  color: #A7A7A5;
   display: inline-block;
+  color: #A7A7A5;
 }
 .index_container .footer_wrap .footer div a img {
   width: 0.85333333rem;
   margin-right: 0.192rem;
 }
-.index_container .footer_wrap .footer div .current {
+.index_container .footer_wrap .footer .current a {
   color: #FCB0BA;
 }
