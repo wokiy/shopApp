@@ -1,7 +1,10 @@
 @rem: 750/16rem;
+@import "variable";
 .brandsall_container {
   width: 100%;
   background: #FFFFFF;
+  height: 100%;
+  overflow: hidden;
   .brandsall_header {
     background: #FFFFFF;
     text-align: center;
@@ -91,5 +94,26 @@
       }
     }
   }
-
+  .list-shortcut{
+    position: absolute;
+    z-index: 30;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20/@rem;
+    padding: 20/@rem 0;
+    border-radius: 10/@rem;
+    text-align: center;
+    background: white;
+    font-family: 微软雅黑;
+    .item{
+      padding: 3/@rem;
+      line-height: 1;
+      color: black;
+      font-size: @font-size-small;
+      .current{
+        color: wheat;
+      }
+    }
+  }
 }

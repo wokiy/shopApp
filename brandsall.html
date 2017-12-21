@@ -6,6 +6,12 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>all</title>
     <script src="js/public.js"></script>
+    <script>
+        document.addEventListener("touchstart",function(ev){
+            ev=ev||event;
+            ev.preventDefault();
+        });
+    </script>
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/brandsall.css">
 </head>
@@ -183,7 +189,36 @@
             </div>
         </div>
     </div>
-
+    <!--右侧导航实现-->
+    <div class="list-shortcut" @touchstart.stop.prevent="onShortcutTouchStart" @touchmove.stop.prevent="onShortcutTouchMove"
+         @touchend.stop>
+        <ul>
+            <!--<li v-for="(item, index) in shortcutList" :data-index="index" class="item"
+                :class="{'current':currentIndex===index}">{{item}}
+            </li>-->
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+            <li class="item">A</li>
+        </ul>
+    </div>
 </div>
 </body>
 </html>

@@ -1,6 +1,8 @@
 .brandsall_container {
   width: 100%;
   background: #FFFFFF;
+  height: 100%;
+  overflow: hidden;
 }
 .brandsall_container .brandsall_header {
   background: #FFFFFF;
@@ -89,4 +91,26 @@
 .brandsall_container .content .content-list .list .item .item-right p:nth-of-type(2) {
   font-size: 0.40533333rem;
   color: silver;
+}
+.brandsall_container .list-shortcut {
+  position: absolute;
+  z-index: 30;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0.42666667rem;
+  padding: 0.42666667rem 0;
+  border-radius: 0.21333333rem;
+  text-align: center;
+  background: white;
+  font-family: 微软雅黑;
+}
+.brandsall_container .list-shortcut .item {
+  padding: 0.064rem;
+  line-height: 1;
+  color: black;
+  font-size: 12px;
+}
+.brandsall_container .list-shortcut .item .current {
+  color: wheat;
 }
